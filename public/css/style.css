@@ -9875,5 +9875,42 @@ h3 {
     border-color: #dee2e6;
   }
 }
+@font-face {
+  font-family: "Flaticon";
+  src: url("../../public/fonts/Flaticon.woff");
+}
+@font-face {
+  font-family: "Courgette";
+  src: url("../../public/fonts/Courgette(1)/Courgette-Regular.ttf");
+}
+body {
+  font-family: Flaticon;
+}
+
+h1 {
+  font-family: Courgette;
+}
+
+.nav {
+  border-top: solid, 3px, black;
+  border-bottom: 3px, solid, black;
+}
+
+.carousel {
+  position: relative;
+}
+.carousel img {
+  filter: brightness(32%);
+}
+
+header {
+  color: white;
+  text: center;
+}
+
+.hastofly {
+  position: absolute;
+  z-index: 1;
+}
 
 /*# sourceMappingURL=style.css.map */
