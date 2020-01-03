@@ -1,18 +1,30 @@
 @import "../../node_modules/bootstrap/scss/bootstrap.scss"
+    
 
 @font-face
     font-family: "Flaticon"
     src: url("../../public/fonts/Flaticon.woff")
+@font-face 
+    font-family: Webfont
+    src: url("../../public/fonts/fontawesome-webfont.woff")
 
 @font-face 
     font-family: "Courgette"
     src: url("../../public/fonts/Courgette(1)/Courgette-Regular.ttf")
 
+$fa-font-path: "../../node_modules/@fortawesome/fontawesome-free/webfonts"
+
+@import "../../node_modules/@fortawesome/fontawesome-free/scss/fontawesome.scss"
+
+@import "../../node_modules/@fortawesome/fontawesome-free/scss/brands.scss"
+
+@import "../../node_modules/@fortawesome/fontawesome-free/scss/solid.scss"
 
 body
-    font-family: Flaticon
+    font-family: Webfont
+    background-image: url("/home/luca/Coding-School-12/Projets/git_bootstrap_les_chefs/public/images/main_bg.jpg")
     
-h1 
+h1, h3
     font-family: Courgette
 
 .nav
@@ -21,15 +33,62 @@ h1
 
     
 .carousel
-    position: relative
-
     img 
         filter: brightness(32%)
+    
+.carousel-indicators
+    li
+        border-radius: 50%
+        height: 15px
+        width: 15px
+
+
+
 header
     color: white
     text: center
+    display: flex
 
-.hastofly
-    position: absolute
-    z-index: 1
+    .hastofly
+        position: absolute
+        z-index: 1
+        justify-content: center
+        right: 0
+        left: 0
 
+    li
+        border-top: 1px solid white
+        border-bottom: 1px solid white
+        text-transform: uppercase
+
+    .whatever
+     
+     
+    button
+
+        border: 0px
+        margin: 10px
+        padding: 10px
+
+
+.right
+    float: right
+  
+.coffee
+    border: 3px solid lightgrey
+    border-radius: 50%
+    width: 20%
+    height: auto
+
+
+
+@media(min-width:1200px)
+
+
+@media(min-width:992px)
+
+
+@media(min-width:768px)
+
+    
+@media(max-widht:768px)
