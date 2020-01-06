@@ -15821,6 +15821,17 @@ header button {
   height: auto;
 }
 
+.ourchefs {
+  background-image: url("/home/luca/Coding-School-12/Projets/git_bootstrap_les_chefs/public/images/team_background.jpg");
+}
+
+.forany {
+  background-image: url("/home/luca/Coding-School-12/Projets/git_bootstrap_les_chefs/public/images/book_table_bg.jpg");
+}
+.forany button {
+  border: 0px;
+}
+
 .client_testimonials {
   background-image: url("../../public/images/testimonials_background.jpg");
 }
