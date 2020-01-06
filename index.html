@@ -10,17 +10,17 @@
 <body>
 
 <header>
-  <div class= "hastofly container p-5">
+  <div class= "hastofly container p-5 ">
 
     <!-- navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark p-2 ">
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
     
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ">
-          <li class="nav-item active">
+          <li class="nav-item active bg-danger">
             <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
@@ -52,17 +52,19 @@
     </nav>
 
 
-    <div class="whatever">
-      <h1 class="text-center pt-5">Whatever your <span class="text-uppercase">occasion</span>, <br> <span class="text-danger text-uppercase">taste</span> makes it one <br> to remember</h1>
+    <div class="whatever ">
+      <div class="d-flex align-items-center justify-content-center">
+        <h1 class="text-center pt-5">Whatever your <span class="text-uppercase">occasion</span>, <br> <span class="text-danger text-uppercase">taste</span> makes it one <br> to remember</h1>
       </div>
-
+    
       <div class="text-center pt-5">
         <button class="bg-white rounded-pill">Purchase theme</button>
         <button class="bg-danger rounded-pill"> Learn more</button>
       </div>
-
     </div>
-
+  </div>
+  
+  
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
           <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -79,10 +81,15 @@
           <div class="carousel-item">
             <img src="public/images/banner1.jpg" class=" d-block w-100" alt="...">
           </div>
+
+          <div class="row">
+            <div class="col-12"></div>
+          </div>
       </div>
+
 </header>
 
-<div class=" container bg-white mt-5 mb-5 p-5">
+<div class=" container bg-white mt-5 mb-5">
 <img src="./public/images/box-left-top.png" alt="">
 <img  class="right" src="./public/images/box-right-top.png" alt="">
 <div class="container text-center">
@@ -264,7 +271,7 @@
 </div>
 
 <!-- book your table -->
-<div class="bg-white container p-5">
+<div class="bg-white container mt-5 mb-5 ">
   <img src="./public/images/box-left-top-grey.png" alt="">
   <img  class="right" src="./public/images/box-right-top-grey.png" alt="">
   <div class="text-center">
@@ -386,8 +393,19 @@
 <div class="col-4"></div>
 </section>
 
-<footer class="row text-white p-5">
-<div class="col">
+<!-- footer -->
+
+
+
+
+<footer class="row text-white ">
+
+ <div class="row">
+   <div class="col-12"></div>
+ </div>
+
+<div class="col-1"></div>
+<div class="col-3">
 <h5>ABOUT US</h5>
 <br>
 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis veniam odit assumenda, repellendus labore autem? Inventore rem harum iusto labore!</p>
@@ -404,29 +422,29 @@
 </div>
 
 
-<div class="col">
+<div class="col-3">
 <h5>INSTAGRAM</h5>
 <br>
-<div class="row">
-  <div class="col-12"></div>
+<div class="row imgborder">
+  <div class="col-12">
   <img src="/home/luca/Coding-School-12/Projets/git_bootstrap_les_chefs/public/images/instragram_gallery_img1.jpg" alt="">
   <img src="/home/luca/Coding-School-12/Projets/git_bootstrap_les_chefs/public/images/instragram_gallery_img2.jpg" alt="">
   <img src="/home/luca/Coding-School-12/Projets/git_bootstrap_les_chefs/public/images/instragram_gallery_img1.jpg" alt="">
   <img src="/home/luca/Coding-School-12/Projets/git_bootstrap_les_chefs/public/images/instragram_gallery_img2.jpg" alt="">
 </div>
-  <div class="row">
+</div>
+<div class="row imgborder">
     <div class="col-12">
     <img src="/home/luca/Coding-School-12/Projets/git_bootstrap_les_chefs/public/images/instragram_gallery_img1.jpg" alt="">
     <img src="/home/luca/Coding-School-12/Projets/git_bootstrap_les_chefs/public/images/instragram_gallery_img2.jpg" alt="">
     <img src="/home/luca/Coding-School-12/Projets/git_bootstrap_les_chefs/public/images/instragram_gallery_img1.jpg" alt="">
     <img src="/home/luca/Coding-School-12/Projets/git_bootstrap_les_chefs/public/images/instragram_gallery_img2.jpg" alt="">
   </div>
-  </div>
 </div>
 
 </div>
 
-<div class="col buttonborder">
+<div class="col-3 buttonborder">
 <h5>POPULAR TAGS</h5>
 <br>
 <button class="bg-danger rounded-pill">Restaurant</button>
@@ -438,7 +456,7 @@
 <button class="bg-danger rounded-pill">Graphic</button>
 <button class="bg-danger rounded-pill">Food</button>
 </div>
-
+<div class="col-1"></div>
 </footer>
 
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>

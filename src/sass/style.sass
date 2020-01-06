@@ -33,14 +33,27 @@ h1, h3
 
     
 .carousel
+    z-index: -3
     img 
         filter: brightness(32%)
     
+    .row
+        width: 100vw
+        position: absolute
+        bottom: 0
+
+        .col-12
+            max-width: 100vw
+            height: 15px
+            background-image: url("/home/luca/Coding-School-12/Projets/git_bootstrap_les_chefs/public/images/bottom_decoration_img.png")
+
+
 .carousel-indicators
     li
         border-radius: 50%
         height: 15px
         width: 15px
+
 
 
 
@@ -55,6 +68,9 @@ header
         justify-content: center
         right: 0
         left: 0
+
+    .whatever
+        
 
     li
         border-top: 1px solid white
@@ -115,11 +131,34 @@ header
 footer 
     background-image: url("/home/luca/Coding-School-12/Projets/git_bootstrap_les_chefs/public/images/footer_background.jpg")
 
+    .row 
+        width: 100vw
+        position: absolute
+        top: 0
+
+        .col-12
+            max-width: 100vw
+            height: 15px
+            background-image: url("/home/luca/Coding-School-12/Projets/git_bootstrap_les_chefs/public/images/footer_bottom_decoration_img.png") 
+            
+
+
+
+
+.imgborder
+   
+    img 
+        margin: 5px
+   
 .buttonborder
     button
         border: 1px solid white
+        margin: 5px
+        padding: 5px
+        color: white
 
-        
+input 
+    width: 80%
 
 @media(min-width:1200px)
 
