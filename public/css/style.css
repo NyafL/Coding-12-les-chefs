@@ -15853,8 +15853,20 @@ header button {
   border-radius: 10%;
 }
 
+.centerme {
+  margin: auto;
+}
+
 .redbg {
   border-radius: 20%;
+}
+
+footer {
+  background-image: url("/home/luca/Coding-School-12/Projets/git_bootstrap_les_chefs/public/images/footer_background.jpg");
+}
+
+.buttonborder button {
+  border: 1px solid white;
 }
 
 /*# sourceMappingURL=style.css.map */
