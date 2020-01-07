@@ -15772,6 +15772,10 @@ h1, h3 {
   font-family: Courgette;
 }
 
+h1 {
+  font-size: 65px;
+}
+
 .nav {
   border-top: solid, 3px, black;
   border-bottom: 3px, solid, black;
@@ -15877,12 +15881,12 @@ header button {
 footer {
   background-image: url("/home/luca/Coding-School-12/Projets/git_bootstrap_les_chefs/public/images/footer_background.jpg");
 }
-footer .row {
+footer .up {
   width: 100vw;
-  position: absolute;
+  position: relative;
   top: 0;
 }
-footer .row .col-12 {
+footer .up .col-12 {
   max-width: 100vw;
   height: 15px;
   background-image: url("/home/luca/Coding-School-12/Projets/git_bootstrap_les_chefs/public/images/footer_bottom_decoration_img.png");
